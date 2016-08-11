@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="special1.html">
+                        Specializations
+                    </a>
+                </li>
+                <li>
+                    <a href="special1.html" >CANCER CARE</a>
+                </li>
+                <li>
+                    <a href="special2.html">DIABETIC CARE</a>
+                </li>
+                <li>
+                    <a href="special3.html">GASTROENTEROLOGY CARE</a>
+                </li>
+                <li>
+                    <a href="special4.html" class="active">HEART CARE</a>
+                </li>
+                <li>
+                    <a href="special5.html">ORTHOPAEDICS-CARE</a>
+                </li>
+                <li>
+                    <a href="special6.html">SPINE CARE</a>
+                </li>
+				<li>
+                    <a href="special7.html">DARIATRIC SURGERY</a>
+                </li>
+                <li>
+                    <a href="special8.html">NEUROSCIENCES</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+						<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Specializations</a>
+                        <h1>HEART CARE</h1>
+						<img src=".\images\gallery-image-4.png" alt="Mountain View" style="width:300px;height:300px;">
+						
+						<br>
+						<br>
+                        <p>Not all people with congenital heart defects require treatment. Some may only need to be observed and visit their cardiologist. In other cases, 
+surgery or a cardiac catheterization may be needed to reduce the effects of and/or repair the defect. Even when a defect is treated as a child, further conditions 
+may develop that would benefit from additional medical treatment.
+
+Many medical treatments are available to help the heart perform at its best. Sometimes multiple conditions occur in the same child and each may require medication 
+for treatment. Here is a list of common conditions that can develop in children and/or adults with congenital heart defects and may need medical treatment:
+
+-Congestive Heart Failure
+-Heart Rhythm Problems
+-Pulmonary Hypertension
+-Interventional Cardiac Catheterizations</p>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
